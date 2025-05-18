@@ -4,7 +4,7 @@
 如果你想看到更多，请......
 
 ##小鸡吃沙威玛
-见[此处](thatcalledxiaoren.github.io/ces/index.html)。
+见[此处](/ces/index.html)。
 
 ##联系方式
 [点这](mailto:lihaoqian12@outlook.com)！
