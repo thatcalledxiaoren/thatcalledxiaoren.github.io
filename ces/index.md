@@ -1,5 +1,5 @@
-![](/logo.jpg)
-##[首页](/) [小鸡吃沙威玛](/ces/index.html) [实用工具](/tool/index.html) [联系](mailto:lihaoqian12@outlook.com)
+![logo](/logo.jpg)
+##[首页](/) [小鸡吃沙威玛](/ces/index.html) [实用工具](/tool/index.html) [文档](/doc/index.html) [联系](mailto:lihaoqian12@outlook.com)
 #小鸡吃沙威玛
 ##现在玩!
 在[这里](/ces/play/index.html)玩。
