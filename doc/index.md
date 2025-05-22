@@ -5,6 +5,8 @@
 ##A:关于C++（这一部分是给sxz看的）
 ###1.基础
 [01.代码模板](/doc/A101/index.html)
+[02.关键字](/doc/A102/index.html)
+[03.系统函数](/doc/A103/index.html)
 ###2.实践
 [01.SetConsoleTextAttribute()](/doc/A201/index.html)
 ##Z:杂文
