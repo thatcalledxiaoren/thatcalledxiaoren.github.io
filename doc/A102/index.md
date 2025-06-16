@@ -1,4 +1,4 @@
-![logo](/logo.jpg)
+![logo](https://thatcalledxiaoren.github.io/logo.jpg)
 ##[首页](/) [小鸡吃沙威玛](/ces/index.html) [实用工具](/tool/index.html) [文档](/doc/index.html) [联系](mailto:lihaoqian12@outlook.com)
 #文档#A102 关键字
 [TOC]
@@ -71,4 +71,76 @@ switch(n){
 ***CASE,DEFAULT后面加的是冒号！！！***
 ###break,continue
 在循环体中，break代表跳出循环体，continue代表略过以下的代码。
-#终于写完了！！！
+###struct,union,class
+```cpp
+//struct,结构体
+struct human{
+	//一个名字叫human的结构体
+	int age;
+    //有一个称作age的int变量
+    string name;
+    //有一个称作name的string变量
+    bool sex;
+    //有一个称作sex的bool变量
+    void grow(){
+    	//可以在结构体中定义函数
+    	age++;
+        //这个human结构体中的age变量+1
+    }
+};//加分号！
+
+//union,共生体
+union pig{
+	//很多，对吧？
+	bool ugly;
+    //但是这些只能储存其中一个
+    bool stink;
+    //如果存储了stink,
+    bool awful;
+    //就不能存储awful,
+    bool annoying;
+    //除非放弃stink.
+    bool death;
+	unsigned long long weigh;
+}lyt;//可以在struct,union后直接定义变量
+
+//叫做watermelon的class
+class watermelon{
+	//与struct,union不同，class默认是私有的。
+	public:
+    	//这些内容是公开的。和case一样,public,private也是加冒号。
+    	void buy(){
+        	cout<<sweet<<" "<<weigh<<endl;
+            weigh-=1;
+        }
+    	string colour="green";
+    private:
+    	//这些内容是私有的。你可以直接写在外面。
+    	bool sweet;
+        int weigh;
+        string color="red";
+        //没人知道sweet,weigh,color是什么！
+};
+
+int main(){
+	human a;
+    //一个human结构体,其名字叫a。
+    //但在C99及以前，写成这样会报错！
+    //你应该写：
+    //struct human a;
+    a.age=-1;
+    //可以对其中一个变量赋值
+    a={-1,"Cai Lai",0};
+    //也可以直接赋值
+    struct human b=(human){-1,"Laozai Bie",1};//C99写法
+
+    watermelon coco;
+    coco.buy();
+    //不会报错。因为buy()是公开的。
+    int trycut=coco.color;
+    //那是个错误！！color是私有变量，你只能通过建立函数来访问color.
+    return 0;
+}
+```
+###其他
+懒得写了。
