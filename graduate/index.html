@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+try{
+	var a=new URLSearchParams(window.location.search).get('num');
+	if(a==null){
+		throw "jafdsjfa";
+	}
+	document.write("<a href='/graduate/");
+	document.write(a);
+	document.write(".html'><h1>查分</h1></a>");
+}catch(err){
+	document.write("<a href='/'><h1>因为这个页面是HTML直接敲出来而非Markdown导出后的产物，所以并没有上方的导航栏。点我返回主页。</h1></a><br><form action='' method='GET'><label for='a'>在下方输入你的学号:</label><br><input type='text' id='a' name='num' required><br><input type='submit' value='提交'></form>");
+}
+</script>
+</head>
+<body>
+<noscript>哦，不！你的浏览器不支持Javascript，因此你得使用黄瓜浏览器。<br></noscript>
+</body>
+</html>
