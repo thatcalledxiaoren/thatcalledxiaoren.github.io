@@ -11,6 +11,9 @@ int main(){
 		freopen(nigger,"w",stdout);
 		cout<<"<!DOCTYPE html>\n";
 		cout<<"<html>\n";
+		cout<<"<head>\n";
+		cout<<"<meta charset=\"gb18030\">\n";
+		cout<<"</head>\n";
 		cout<<"<body>\n";
 		cout<<"<h1>学号："<<to_string(i);
 		cout<<"</h1>\n<br><strong>剩下的需要5345431年才可编辑完成。</strong>\n";
